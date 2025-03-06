@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+    <script>
+  console.log('当前路径:', window.location.pathname)
+  console.log('CSS加载状态:', 
+    document.querySelector('link[href*="css"]').sheet ? '成功' : '失败')
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>个人所得税计算器</title>
